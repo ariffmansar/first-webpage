@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    /* border: solid red 1px; */
+    padding: 0;
+    margin: 0;
+}
+
+/* GENERAL__________________________________________________________ */
+img {
+    /* display: none; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #eb5e28;
+    width: 180px;
+    padding: 0.5rem;
+    border-style: none;
+    border-radius: 7px;
+    font-size: large;
+}
+
+.button a {
+    color: #F9FAF8;
+}
+
+/* HEADER___________________________________________________________ */
+.section-one {
+    background-color: #252422;
+}
+
+.header {
+    width: 1200px;
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    /* border: solid red 1px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-logo a {
+    color: #F9FAF8;
+}
+
+.header-links {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-links a {
+    color: #E5E7EB;
+}
+
+/* HERO_____________________________________________________________ */
+
+.section-two {
+    display: flex;
+    background-color: #252422;
+    justify-content: center;
+}
+.container {
+    width: 1200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    justify-content: center;
+    gap: 3rem;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 2rem;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.features li {
+    padding:1rem;
+    background-color: #fffcf2;
+    border-radius: 7px;
+    color: #252422;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+   }
+h1 {
+    color:#F9FAF8;
+    font-size: 48px;
+}
+.features li div {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+h3 {
+    margin-top: 1rem;
+}
+
+
